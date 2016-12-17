@@ -1,3 +1,3 @@
-#increase polynomially
+#multiply polynomials
 
 console application written in **Java**
