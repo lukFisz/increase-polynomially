@@ -38,10 +38,10 @@ public class Main {
             f[i] = Double.parseDouble(b[i]);
         }
 
-        increasePolynomially(g, f);
+        multiplyPolynomials(g, f);
     }
 
-    public static void increasePolynomially(double[] polynom1, double[] polynom2){
+    public static void multiplyPolynomials(double[] polynom1, double[] polynom2){
         int z = polynom1.length + polynom2.length - 1;
         double[] polynom = new double[z];
 
