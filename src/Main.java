@@ -10,12 +10,12 @@ public class Main {
 
         while(true){
             s1 = in.nextLine();
-            if (!Pattern.matches("[\\[][-0.0-9.9 ]+[]]", s1)) {
+            if (!Pattern.matches("\\[[-0-9. ]+]", s1)) {
                 System.out.println("error");
                 continue;
             }
             s2 = in.nextLine();
-            if (!Pattern.matches("[\\[][-0.0-9.9 ]+[]]", s2)) {
+            if (!Pattern.matches("\\[[-0-9. ]+]", s2)) {
                 System.out.println("error");
                 continue;
             }
@@ -70,6 +70,6 @@ public class Main {
                     joiner.add("*x");
             }
         }
-        System.out.println(joiner.toString());
+        System.out.println(joiner);
     }
 }
