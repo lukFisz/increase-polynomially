@@ -1,10 +1,11 @@
-#multiply polynomials
+### Multiply polynomials
 
 console application written in **Java**
 
-example    
-input:    
+Example:
+
+Input:    
 ```[2 0]```    _'2*x'_    
 ```[3 2]```    _'3*x + 2'_    
-out:    
+Out:    
 ```6.0*x^2 + 4.0*x```
